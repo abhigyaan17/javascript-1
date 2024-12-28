@@ -1,0 +1,1 @@
+console.log("Sanskari Hindu Whore")
