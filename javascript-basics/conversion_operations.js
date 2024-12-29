@@ -27,8 +27,8 @@ let negNum = -num
 // console.log(2 % 3)
 
 
-let str1 = "Hindu"
-let str2 = "Whore"
+let str1 = ""
+let str2 = ""
 let str3 = str1 + str2
 // console.log(str3)
 // console.log(str1 + str2)

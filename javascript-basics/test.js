@@ -1,1 +1,1 @@
-console.log("Sanskari Hindu Whore")
+console.log("Hello")

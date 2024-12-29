@@ -3,10 +3,10 @@
 // alert( 3 + 3 ) cannot use in node only browser console
 
 console.log(3+3)
-console.log("HinduRandi")
+console.log("")
 
-let name = "whore"
-let num = 786
+let name = "abhi"
+let num = 12
 let isLoggedIn = false
 let state = null
 
