@@ -24,7 +24,36 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello")
+    // console.log("Hello")
 }
+
+
+
+//_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+
+
+
+//Stack(primitive), Heap(non-primitive)
+
+let petname = "tyson"
+let petname2 = petname
+petname2 = "oscar"
+
+console.log(petname)
+console.log(petname2)
+
+let Person1 = {
+    name: "abhi",
+    age: 19,
+    gender: "male"
+}
+let Person2 = Person1
+Person2.name = "golu"
+Person2.gender = "female"
+
+console.log(Person1.name, Person1.gender)
+console.log(Person2.name, Person2.gender)
+
+
 
 
