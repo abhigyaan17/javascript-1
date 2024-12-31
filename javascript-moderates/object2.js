@@ -8,7 +8,7 @@ tinderUser.name = "abhigyaan"
 const userDetails = {
 
     fullname: {
-        Username:{
+        Username: {
             firstname: "Abhigyaan",
             lastname: "Sharma"
         }
@@ -27,7 +27,7 @@ const obj2 = {
 }
 
 // const obj3 = {obj1, obj2}
-const obj3 = {...obj1, ...obj2}
+const obj3 = { ...obj1, ...obj2 }
 // console.log(obj3);
 
 const users = [
@@ -46,10 +46,18 @@ const users = [
 ]
 // console.log(users[1].name2);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
+// console.log(tinderUser.hasOwnProperty('id'));
 
+const course = {
+    courseName: "Javascript-tutorial",
+    length: "20hr",
+    Head: "Abhigyaan"
+}
 
-
+// console.log(course.Head);
+const { Head } = course
+console.log(Head);
