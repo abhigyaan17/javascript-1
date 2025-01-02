@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM --- More --- </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const cont = document.createElement('div')
+    console.log(cont);
+    cont.className = "main"
+    cont.id = Math.round(Math.random() * 10 + 1)
+    cont.setAttribute("title", "generated title")
+    cont.style.backgroundColor = "green"
+    cont.style.padding = "12px"
+    // div.innerText = "Abhigyaan"
+    const addText = document.createTextNode("Chai aur code")
+    cont.appendChild(addText)
+
+    document.body.appendChild(cont)
+</script>
+</html>
